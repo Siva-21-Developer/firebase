@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: "Playwrite AU VIC", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(./pages/images/701802.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed; */
+  background: #ffffff url(./pages/images/701802.jpg) no-repeat right top ;
+  background-size:100%;
+  overflow: hidden;
+}
+

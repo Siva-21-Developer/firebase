@@ -1,0 +1,58 @@
+.chatcon-con
+{
+    position: relative;
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border-right:1px solid rgba(255, 255, 255, 0.6);
+    border-top:1px solid rgba(255, 255, 255, 0.6);}
+
+.chatcon {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    overflow: scroll;
+    flex: 1;
+    /* display: block; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chatcon-con .top-bar
+{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+
+.chatcon-con .top-bar aside
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chatcon-con .top-bar aside img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

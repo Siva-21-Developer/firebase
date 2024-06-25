@@ -1,0 +1,50 @@
+.new-message-container
+{
+    position:sticky;
+    bottom: 0;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.new-message-container form
+{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.new-message-container form input[type="text"]
+{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+color: #000;
+}
+
+::placeholder
+{
+    color: black;
+}
+
+.new-message-container form .btn
+{
+    position: relative;
+    width: 13%;
+    height: 50%;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    background-color:rgb(17, 46, 72);
+    color: white;
+    cursor: pointer;
+}
